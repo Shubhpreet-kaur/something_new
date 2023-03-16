@@ -390,19 +390,27 @@ opacity: 1;
         text-align: center;
     }
 }
-@media (max-width:600px) {
+@media (max-width:1300px){
     .nav-items{
         display: none;
     }
+}
+@media (max-width:800px) {
+    
     #wrapper::before{
-        height: 300vh;
+        height: 500vh;
      }
-    .card{
-        height: 150px;
-        width: 150px;
+    .gallery-container{
+        height: 300vh;
+    }
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        z-index: 20;
     }
     .gallery-container h1{
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .contactus-container{
         margin-top: -250px;
@@ -416,7 +424,7 @@ opacity: 1;
         font-size: 20px;
     }
     form{
-        margin: 0;
+        margin: 2px;
         width: 100%;
     }
     .contactus-form-container{
@@ -424,7 +432,7 @@ opacity: 1;
         
     }
     .btn-pink{
-        margin-left: 10rem;
+        margin:0 auto;
     }
     footer{
 
